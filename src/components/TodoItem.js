@@ -1,6 +1,6 @@
 import React from "react";
 // import React, {useState} from "react";
-const API_BASE = 'http://13.51.121.198:5000/todo';
+const API_BASE = 'http://13.51.121.198:5000/api/todo';
 
 function TodoItem(props) {
     const { name, id, completed, setItems } = props
